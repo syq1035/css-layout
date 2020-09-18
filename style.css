@@ -12,3 +12,79 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+header {
+    height: 100px;
+    width: 100%;
+    line-height: 80px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+}
+
+header img {
+    border-radius: 50%;
+}
+
+header h1 {
+    color: aliceblue;
+}
+
+ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+
+ul li a {
+    color: aliceblue;
+
+}
+
+main {
+    padding-top: 100px;
+}
+
+main img{
+    width: 310px;
+    height: 370px;
+}
+
+.description, .relationship {
+    padding: 40px 200px;
+}
+
+#description {
+    height: 470px;
+    background-color: rgb(248, 242, 242);
+}
+
+#relationship {
+    height: 410px;
+}
+
+#description img {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+#relationship img {
+    float: right;
+    margin-left: 50px;
+}
+
+
+.description-p2 {
+    clear: both;
+}
+
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: #9E9E9E;
+    text-align: center;
+}
